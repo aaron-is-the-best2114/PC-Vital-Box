@@ -29,9 +29,6 @@ To uninstall PC Vital Box:
    - In the installation directory, locate and run the `uninstall.bat` file.
    - This script will remove all files associated with PC Vital Box and clean up the installation directory.
 
-3. **Remove Startup Entry**
-   - The uninstaller will also remove the startup entry created during installation, ensuring the application no longer runs automatically.
-
 If you have trouble uninstalling the program or need further assistance, please create an issue on our GitHub repository: [PC-Vital-Box](https://github.com/aaron-is-the-best2114/PC-Vital-Box).
 
 ## How It Works
