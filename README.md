@@ -1,7 +1,7 @@
 # PC Vital Box
 
 ## Overview
-PC Vital Box is a software application designed to monitor and display system information such as GPU temperature, CPU temperature, CPU utilization, CPU frequency, memory usage, GPU utilization, and GPU power on an Arduino display. The software consists of a Python script (`PcTemp.py`) that collects system information and sends it to an Arduino, and a watchdog script (`watchdog.py`) that ensures the main script runs continuously by restarting it periodically and handling crashes.
+PC Vital Box is a software application designed to monitor and display system information such as GPU temperature, CPU temperature, CPU utilization, CPU frequency, Memory Usage, GPU utilization, and GPU power on an Arduino display. The software consists of a C++ Script (`main.cpp`) that collects system information and sends it to an Arduino, and a watchdog script (`watchdog.cpp`) that ensures the main script runs continuously by restarting it periodically and handling crashes.
 
 ## Components Used
 The PC Vital Box physical product includes the following components:
@@ -23,7 +23,7 @@ To install PC Vital Box:
 To uninstall PC Vital Box:
 
 1. **Navigate to the Installation Directory**
-   - Open File Explorer and go to `C:\Program Files\ArduinoSysInfoBox`.
+   - Open File Explorer and go to `C:\Program Files (x86)\VitalBox`.
 
 2. **Run the Uninstaller**
    - In the installation directory, locate and run the `uninstall.bat` file.
