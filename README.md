@@ -3,6 +3,8 @@
 ## Overview
 PC Vital Box is a software application designed to monitor and display system information such as GPU temperature, CPU temperature, CPU utilization, CPU frequency, Memory Usage, GPU utilization, and GPU power on an Arduino display. The software consists of a C++ Script (`main.cpp`) that collects system information and sends it to an Arduino, and a watchdog script (`watchdog.cpp`) that ensures the main script runs continuously by restarting it periodically and handling crashes.
 
+**Credit for the serial library:** https://github.com/wjwwood/serial 
+
 ## Components Used
 The PC Vital Box physical product includes the following components:
 - **Arduino**
