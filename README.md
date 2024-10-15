@@ -37,43 +37,7 @@ If you have trouble uninstalling the program or need further assistance, please 
 
 ## How It Works
 
-### `PcTemp.py`
-This script monitors various system metrics and communicates with the Arduino.
-
-- **Initialization**:
-  - The script attempts to initialize a serial connection with the Arduino on COM3 at a baud rate of 115200. If initialization fails, the script exits with an error code.
-
-- **Data Collection**:
-  - The script runs PowerShell commands to collect data about GPU temperature, CPU temperature, CPU usage, CPU frequency, memory usage, GPU utilization, and GPU power.
-  - These commands are executed concurrently using `ThreadPoolExecutor` to improve performance.
-
-- **Data Transmission**:
-  - The collected data is formatted and sent to the Arduino via serial communication.
-
-- **Error Handling**:
-  - If any error occurs during data collection or transmission, the script exits with an error code, triggering the watchdog to restart it.
-
-### `watchdog.py`
-This script ensures that `PcTemp.py` is always running and handles any crashes.
-
-- **Script Monitoring**:
-  - The watchdog script starts `PcTemp.py` and monitors it.
-  - If the script crashes or exits with an error code, or if it runs for longer than 5 minutes, the watchdog restarts it.
-
-### `run_script.bat`
-A batch file used to run `watchdog.py` from the command line.
-
-### `run_script.vbs`
-A VBScript file that runs `run_script.bat` silently on startup. This ensures that the watchdog script starts automatically when Windows starts.
-
-### `install.bat`
-A batch file used for installing the application. It moves the necessary files to the installation directory and sets up the application to run on startup.
-
-### `delete_install.bat`
-A batch file that deletes itself after running.
-
-### `uninstall.bat`
-A batch file used for uninstalling the application. It removes all files associated with PC Vital Box and cleans up the installation directory.
+### `Comming Soon`
 
 ## Running the Application
 After installation, the application will automatically start with Windows. You can check the Arduino display to see the system information being updated in real-time.
