@@ -9,9 +9,10 @@ PC Vital Box is a software application designed to monitor and display system in
 The PC Vital Box physical product includes the following components:
 - **Arduino**
 - **2 I2C LCD1602 Displays**
-- **Two buttons**:
+- **Three buttons**:
   - **Reset button**: Resets the Arduino.
-  - **Menu button**: Changes the type of information shown on the LCD.
+  - **Left Menu button**: Changes the type of information shown on the Left LCD.
+  - **Right Menu button**: Changes the type of information shown on the right LCD.
 - **A switch**: Disconnects power to the Arduino.
 
 ## Installation
