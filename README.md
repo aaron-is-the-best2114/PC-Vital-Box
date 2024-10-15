@@ -17,10 +17,10 @@ To install PC Vital Box:
 
 ### Download and Run the Installer (**ENSURE YOU READ ANY AND ALL INSTRUCTIONS**)
 1. Go to https://www.msys2.org/ and download and run the installer.
-2. Before you finish with the installer, make sure the `Run MSYS2 Now.` box is checked. It should open the UCRT64 environment.
-3. Inside the enviornment run this line of code: `pacman -S --needed base-devel mingw-w64-x86_64-toolchain`
-4. When that is complete, close the environment and open either Windows Terminal, Windows PowerShell, or Command Prompt and type `g++ --version` to ensure it was installed correctly.
-5. Then Download the `PCVitalBox Installer.exe` file from the releases page on this repository.
+2. Before you finish with the installer, check the `Run MSYS2 Now.` box. It should open the UCRT64 environment.
+3. Inside the environment run this line of code: `pacman -S --needed base-devel mingw-w64-x86_64-toolchain`
+4. When that is complete, close the environment and open either Windows Terminal, Windows PowerShell, or Command Prompt, and type `g++ --version` to ensure it was installed correctly.
+5. Download the `PCVitalBox Installer.exe` file from the releases page on this repository.
 6. Run the installer. It will move all necessary files to the appropriate directories and set up the application to start automatically with Windows.
 
 ## Uninstalling the Program
@@ -40,7 +40,7 @@ If you have trouble uninstalling the program or need further assistance, please 
 ### `Comming Soon`
 
 ## Running the Application
-After installation, the application will automatically start with Windows. You can check the Arduino display to see the system information being updated in real-time.
+After installation, the application will automatically start with Windows. You can check the Arduino display to see the system information being updated in real time. While it may not be the fastest thing in the world, it should update.
 
 ## Troubleshooting
 If you encounter any issues or need assistance, please create an issue on our GitHub repository: [PC-Vital-Box](https://github.com/aaron-is-the-best2114/PC-Vital-Box). Provide details about the problem you're facing, and we will help you resolve it as quickly as possible.
