@@ -20,7 +20,7 @@ To install PC Vital Box:
 
 ### Download and Run the Installer (**ENSURE YOU READ ANY AND ALL INSTRUCTIONS**)
 1. Go to https://www.msys2.org/ and download and run the installer.
-2. Before you finish with the installer, check the `Run MSYS2 Now.` box. It should open the UCRT64 environment.
+2. Before you finish with the installer, check the `Run MSYS2 Now` box. It should open the UCRT64 environment.
 3. Inside the environment run this line of code: `pacman -S --needed base-devel mingw-w64-x86_64-toolchain`
 4. When that is complete, close the environment and open either Windows Terminal, Windows PowerShell, or Command Prompt, and type `g++ --version` to ensure it was installed correctly.
 5. Download the `PCVitalBox Installer.exe` file from the releases page on this repository.
